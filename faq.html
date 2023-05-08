@@ -5,75 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+    </style>
 </head>
 <body>
-    <!--Section: FAQ-->
-<section>
-    <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3>
-    <p class="text-center mb-5">
-      Find the answers for the most frequently asked questions below
-    </p>
+    <h2>FAQ</h2>
+<p>Before Order:</p>
+  <button class="accordion">What are “ComicSense Wallet” points? How do I use/earn them?</button>
+<div class="panel">
+  <p>1. All registered users earn points/cashback via</p>
+  <p> a) Shopping: Every time you shop on our website, 7.5% of total order amount is added as cashback in your ComicSense wallet once the order is delivered.</p>
+  <p> b) Reviews: For every approved review added by you to the product, Rs. 5 (max Rs. 25 per month) is added into your ComicSense wallet.</p>
+  <p> 2. You can still use the points from you wallet while placing your order during checkout.</p>
+  <p>  3. You can check the balance in your wallet here: ComicSense Wallet.</p>
+  <p>4. Points in your wallet expire in 100 days from the day they were added.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+<script>var acc = document.getElementsByClassName("accordion");
+  var i;
   
-    <div class="row">
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
-          question?</h6>
-        <p>
-          <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
-          your
-          safety and
-          security. All billing information is stored on our payment processing partner.
-        </p>
-      </div>
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      /* Toggle between adding and removing the "active" class,
+      to highlight the button that controls the panel */
+      this.classList.toggle("active");
   
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
-          that
-          is longer then the previous one?</h6>
-        <p>
-          <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
-          your
-          account. Once the subscription is
-          cancelled, you will not be charged next month.
-        </p>
-      </div>
-  
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
-          question?
-        </h6>
-        <p>
-          Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
-          account at any time with no further obligation.
-        </p>
-      </div>
-  
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
-          question?
-        </h6>
-        <p>
-          Yes. Go to the billing section of your dashboard and update your payment information.
-        </p>
-      </div>
-  
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
-          question?
-        </h6>
-        <p><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
-          reason.</p>
-      </div>
-  
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
-          question that is longer than usual</h6>
-        <p>
-          Of course! We’re happy to offer a free plan to anyone who wants to try our service.
-        </p>
-      </div>
-    </div>
-  </section>
-  <!--Section: FAQ-->
+      /* Toggle between hiding and showing the active panel */
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }</script>
 </body>
 </html>
