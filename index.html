@@ -1,278 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>SenpaiHood | Official Website</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   </head>
-   <style>
-      .carousel-item{
-      height: 700px;
-      } 
-      .carousel-item img{
-      height: 700px;
-      }
-   </style>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="logo.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SenpaiHood | Official Website</title>
+</head>
+<style>
+ .carousel-item{
+    height: 700px;
+} 
+.carousel-item img{
+    height: 700px;
+}
+
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SenpaiHood</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="about.html">ABOUT</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#contact">CONTACT</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     What are you looking for?
-                     </a>
-                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action Figures</a></li>
-                        <li><a class="dropdown-item" href="#">Stickers</a></li>
-                        <li><a class="dropdown-item" href="#">Posters</a></li>
-                        <li><a class="dropdown-item" href="#">Keychain</a></li>
-                        <li><a class="dropdown-item" href="#">LED lamp</a></li>
-                     </ul>
-                  </li>
-               </ul>
-            </div>
-         </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  What are you looking for?
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action Figures</a></li>
+                  <li><a class="dropdown-item" href="#">Stickers</a></li>
+                  <li><a class="dropdown-item" href="#">Posters</a></li>
+                  <li><a class="dropdown-item" href="#">Keychain</a></li>
+                  <li><a class="dropdown-item" href="#">LED lamp</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-         </div>
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img src="https://img.freepik.com/premium-photo/anime-art-style-environment-background-image_492154-389.jpg" class="d-block w-100 " alt="...">
-            </div>
-            <div class="carousel-item">
-               <img src="https://img.freepik.com/premium-photo/anime-nature-abstract-art-background-image_739292-1767.jpg" class="d-block w-100 " alt="...">
-            </div>
-            <div class="carousel-item">
-               <img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Anime-Landscape-Backgrounds.jpg" class="d-block w-100 " alt="...">
-            </div>
-         </div>
-         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Next</span>
-         </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/premium-photo/anime-art-style-environment-background-image_492154-389.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/premium-photo/anime-nature-abstract-art-background-image_739292-1767.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Anime-Landscape-Backgrounds.jpg" class="d-block w-100 " alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       <div class="container">
-         <div class="top-categories">
-            <div class="text-center">
-               <h1>TOP CATEGORIES</h1>
-            </div>
-            <div class="row">
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Stickers</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Posters</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Keychain</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Led Lamp</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Something</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="trending-section">
-            <div class="text-center">
-               <h2>TRENDING</h2>
-            </div>
-            <div class="row">
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="new-arrivals">
-            <div class="text-center">
-               <h2> NEW ARRIVALS </h2>
-            </div>
-            <div class="row">
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-               <div class = "col -sm-3 pb-5 bx-2 by -2">
-                  <div class="card" style="width: 18rem;">
-                     <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Action Figures</h5>
-                        <a href="#" class="btn btn-primary">TAP HERE</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+        <div class="text-center"> <h1>TOP CATEGORIES</h1> </div>
+        <div class="row">
+          <div class = "col -sm-3 pb-5 bx-2 by -2">
+            <div class="card" style="width: 18rem;">
+            <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Action Figures</h5>
+              <a href="#" class="btn btn-primary">TAP HERE</a>
+            </div></div>
+        </div>
+        <div class = "col -sm-3 pb-5 bx-2 by -2">
+          <div class="card" style="width: 18rem;">
+          <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Stickers</h5>
+            <a href="#" class="btn btn-primary">TAP HERE</a>
+          </div></div>
+      </div>
+      <div class = "col -sm-3 pb-5 bx-2 by -2">
+        <div class="card" style="width: 18rem;">
+        <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Posters</h5>
+          <a href="#" class="btn btn-primary">TAP HERE</a>
+        </div></div>
+    </div>
+    <div class="row">
+      <div class = "col -sm-3 pb-5 bx-2 by -2">
+        <div class="card" style="width: 18rem;">
+        <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Keychain</h5>
+          <a href="#" class="btn btn-primary">TAP HERE</a>
+        </div></div>
+      </div>
+      <div class = "col -sm-3 pb-5 bx-2 by -2">
+        <div class="card" style="width: 18rem;">
+        <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Led Lamp</h5>
+          <a href="#" class="btn btn-primary">TAP HERE</a>
+        </div></div>
+      </div>
+      <div class="container">
+        <div class="text-center"><h2>TRENDING</h2></div>
+        <div class="row">
+          <div class = "col -sm-3 pb-5 bx-2 by -2">
+            <div class="card" style="width: 18rem;">
+            <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Action Figures</h5>
+              <a href="#" class="btn btn-primary">TAP HERE</a>
+            </div></div>
+        </div>
+        <div class = "col -sm-3 pb-5 bx-2 by -2">
+          <div class="card" style="width: 18rem;">
+          <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Action Figures</h5>
+            <a href="#" class="btn btn-primary">TAP HERE</a>
+          </div></div>
+      </div>
+      <div class = "col -sm-3 pb-5 bx-2 by -2">
+        <div class="card" style="width: 18rem;">
+        <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Action Figures</h5>
+          <a href="#" class="btn btn-primary">TAP HERE</a>
+        </div></div>
+    </div>
+     <div class = "col -sm-3 pb-5 bx-2 by -2">
+            <div class="card" style="width: 18rem;">
+            <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Action Figures</h5>
+              <a href="#" class="btn btn-primary">TAP HERE</a>
+            </div></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="text-center"><h2> NEW ARRIVALS </h2></div>
+        <div class="row">
+          <div class = "col -sm-3 pb-5 bx-2 by -2">
+            <div class="card" style="width: 18rem;">
+            <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Action Figures</h5>
+              <a href="#" class="btn btn-primary">TAP HERE</a>
+            </div></div>
+        </div>
+        <div class = "col -sm-3 pb-5 bx-2 by -2">
+          <div class="card" style="width: 18rem;">
+          <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Action Figures</h5>
+            <a href="#" class="btn btn-primary">TAP HERE</a>
+          </div></div>
+      </div>
+      <div class = "col -sm-3 pb-5 bx-2 by -2">
+        <div class="card" style="width: 18rem;">
+        <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Action Figures</h5>
+          <a href="#" class="btn btn-primary">TAP HERE</a>
+        </div></div>
+    </div>
+     <div class = "col -sm-3 pb-5 bx-2 by -2">
+            <div class="card" style="width: 18rem;">
+            <img src="https://w0.peakpx.com/wallpaper/127/830/HD-wallpaper-midoriya-izuku-anime-my-hero-academy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Action Figures</h5>
+              <a href="#" class="btn btn-primary">TAP HERE</a>
+            </div></div>
+        </div>
       </div>
       <footer class="bg-dark text-center text-lg-start" id="contact">
-         <!-- Grid container -->
-         <div class="container p-4">
-            <!--Grid row-->
-            <div class="row">
-               <!--Grid column-->
-               <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase mb-0 text-light">Social Media</h5>
-                  <ul class="list-unstyled mb-0">
-                     <li class="pt-2">
-                        <a href="https://www.instagram.com/senpaihood/" class="text-light text-decoration-none" target="_blank">Instagram</a>
-                     </li>
-                     <li class="pt-2">
-                        <a href="https://www.facebook.com/profile.php?id=100092582041732&mibextid=ZbWKwL" class="text-light text-decoration-none" target="_blank">Facebook</a>
-                     </li>
-                     <li class="pt-2">
-                        <a href="mailto:senpaiiiihood@gmail.com" class="text-light text-decoration-none" target="_blank">Gmail</a>
-                     </li>
-                  </ul>
-               </div>
-               <!--Grid column-->
-               <!--Grid column-->
-               <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase mb-0 text-light">Others</h5>
-                  <ul class="list-unstyled">
-                     <li class="pt-2">
-                        <a href="privacypolicy.html" class="text-light text-decoration-none">Privacy Policy</a>
-                     </li>
-                     <li class="pt-2">
-                        <a href="faq.html" class="text-light text-decoration-none">FAQs</a>
-                     </li>
-                     <li class="pt-2">
-                        <a href="termsandconditions.html" class="text-light text-decoration-none">Terms and Conditions</a>
-                     </li>
-                  </ul>
-               </div>
-               <!--Grid column-->
-            </div>
-            <!--Grid row-->
-         </div>
-         <!-- Grid container -->
-         <!-- Copyright -->
-         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <p class="text-light pt-2">&copy; 2023 Copyright : SenpaiHood</p>
-         </div>
-         <!-- Copyright -->
-      </footer>
-   </body>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		  <!-- Grid container -->
+		  <div class="container p-4">
+		    <!--Grid row-->
+		    <div class="row">
+		      <!--Grid column-->
+		      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+		      	<h5 class="text-uppercase mb-0 text-light">Social Media</h5>
+		        <ul class="list-unstyled mb-0">
+		          <li class="pt-2">
+		            <a href="https://www.instagram.com/senpaihood/" class="text-light text-decoration-none" target="_blank">Instagram</a>
+		          </li>
+		          <li class="pt-2">
+		            <a href="https://www.facebook.com/profile.php?id=100092582041732&mibextid=ZbWKwL" class="text-light text-decoration-none" target="_blank">Facebook</a>
+		          </li>
+              <li class="pt-2">
+		            <a href="mailto:senpaiiiihood@gmail.com" class="text-light text-decoration-none" target="_blank">Gmail</a>
+		          </li>
+		        </ul>
+		      </div>
+		      <!--Grid column-->
+
+		      <!--Grid column-->
+		      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+		        <h5 class="text-uppercase mb-0 text-light">Others</h5>
+
+		        <ul class="list-unstyled">
+		          <li class="pt-2">
+		            <a href="privacypolicy.html" class="text-light text-decoration-none">Privacy Policy</a>
+		          </li>
+		          <li class="pt-2">
+		            <a href="faq.html" class="text-light text-decoration-none">FAQs</a>
+		          </li>
+		          <li class="pt-2">
+		            <a href="termsandconditions.html" class="text-light text-decoration-none">Terms and Conditions</a>
+		          </li>
+		        </ul>
+		      </div>
+		      <!--Grid column-->
+		    </div>
+		    <!--Grid row-->
+		  </div>
+		  <!-- Grid container -->
+
+		  <!-- Copyright -->
+		  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+		    <p class="text-light pt-2">&copy; 2023 Copyright : SenpaiHood</p>
+		  </div>
+		  <!-- Copyright -->
+		</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
