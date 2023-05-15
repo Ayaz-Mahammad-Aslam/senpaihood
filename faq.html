@@ -45,12 +45,36 @@
                   <li><a class="dropdown-item" href="#">Posters</a></li>
                   <li><a class="dropdown-item" href="#">Keychain</a></li>
                   <li><a class="dropdown-item" href="#">LED lamp</a></li>
+                  <li>
+                           <!-- Button trigger modal -->
+                      <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                           Sauce Generator
+                      </a>
+                  </li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Free Sauce Generator!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <p id="sauce-code"></p>
+                  <p class="text-secondary">Refresh the page to generate a new code.</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
       <div class="container pt-4 pb-5">
         <div class="text-center"> <h3>FAQ</h3> </div>
           <div class="container content pt-3">
@@ -121,5 +145,6 @@
 		  <!-- Copyright -->
 		</footer>
 </body>
+<script type="text/javascript" src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
