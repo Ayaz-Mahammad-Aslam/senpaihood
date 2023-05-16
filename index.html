@@ -53,7 +53,7 @@
                         <li><a class="dropdown-item" href="#">LED lamp</a></li>
                         <li>
                            <!-- Button trigger modal -->
-                           <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                           <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#sauceGenerator">
                            Sauce Generator
                            </a>
                         </li>
@@ -64,7 +64,7 @@
          </div>
       </nav>
       <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="sauceGenerator" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
          <div class="modal-dialog">
             <div class="modal-content">
                <div class="modal-header">
@@ -76,8 +76,34 @@
                   <p class="text-secondary">Refresh the page to generate a new code.</p>
                </div>
                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary"><a href="#" class="text-light text-decoration-none">Click Here to buy some H*ntai Stickers!</a></button>
+                  <a href="mailto:senpaiiiihood@gmail.com?subject = Request for more Codes!" class="text-light text-decoration-none btn btn-primary">Request more Codes!</a>
+                  <a href="#" class="text-light text-decoration-none btn btn-success" data-bs-toggle="modal" data-bs-target="#hentaiStickers">Buy H*ntai Stickers!</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Buy Hentai Stickers Modal -->
+      <div class="modal fade" id="hentaiStickers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Buy H*ntai Stickers!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <div class="card text-center">
+                     <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                           data-mdb-ripple-color="light">
+                        <img src="https://i.etsystatic.com/29616134/r/il/2311df/3701917552/il_570xN.3701917552_57vc.jpg"
+                              class="w-100" />
+                     </div>
+                     <div class="card-body">
+                        <h5 class="card-title mb-3">H*ntai Stickers!</h5>
+                        <h6 class="mb-3">₹99.00</h6>
+                        <button type="button" class="btn btn-primary"><a href="https://docs.google.com/forms/d/1OHLvVjq_Jbick6aVlEw_6j0c4DjdGdz6O8uYBfNuydY/viewform?pli=1&pli=1&edit_requested=true&edit_requested=true" class="text-decoration-none text-light" target="_blank">Order Now!</a></button>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
