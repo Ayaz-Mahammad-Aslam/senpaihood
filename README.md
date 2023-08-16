@@ -1,1 +1,1 @@
-# senpaihood
+senpaihood
